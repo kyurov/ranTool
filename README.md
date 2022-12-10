@@ -1,12 +1,10 @@
 # Description
 	
-	Input: N/A
 	Output: Console Report & CSV format file
 	Running: ENM scripting VM
 	
-	konstantin.yurov@ericsson.com
 	You can download the latest version script from the link:
-	https://ericsson-my.sharepoint.com/:u:/p/konstantin_yurov/ERZ__kqlOVlAplqsTN54d6oBztCoJdoWgmrnRRX67fgzdQ?e=beHHjA
+	https://github.com/kyurov/ranTool.git
 
 # currentVersion=2.1.2
 * 30-Jun-2020: Script was created;

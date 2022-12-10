@@ -1345,10 +1345,9 @@ getAbisTsState () {
 ################################################################################################################################################################################################
 echo -e "\n#####################################################################################################################\n#                                                                                                                   #"
 echo -e "# IT IS ALWAYS RECOMMENDED TO USE THE LATEST VERSION OF THE SCRIPT                                                  #\n#                                                                                                                   #"
-echo -e "# You can download the latest version script from the link:                                                         #\n# https://ericsson-my.sharepoint.com/:u:/p/konstantin_yurov/ERZ__kqlOVlAplqsTN54d6oBztCoJdoWgmrnRRX67fgzdQ?e=beHHjA #"
+echo -e "# You can download the latest version script from the link: https://github.com/kyurov/ranTool.git #"
 echo -e "#                                                                                                                   #\n# Сurrent version of the script: "$currentVersion"                                                                              #"
 echo -e "#                                                                                                                   #\n#####################################################################################################################\n"
-
 
 declareVariablesForPython
 
