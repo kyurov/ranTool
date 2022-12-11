@@ -51,6 +51,5 @@ To run the script, you need to upload the `ranTool.sh` file to the ENM scripting
 - [ ] Audit Pico
 - [ ] Audit STN:
 	> `cmedit get * Equipment.* --netype=TCU02 -t -s`
+	
 	> `cmedit get * networkelement.(neType,platformType==STN) -t -s`
- 
- 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
