@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+currentVersion=3.0
 scriptName=$0
 scriptAction=$1
 collectionName=$3

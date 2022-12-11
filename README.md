@@ -2,11 +2,8 @@
 	
 	Output: Console Report & CSV format file
 	Running: ENM scripting VM
-	
-	You can download the latest version script from the link:
-	https://github.com/kyurov/ranTool.git
 
-# currentVersion=2.1.2
+
 * 30-Jun-2020: Script was created;
 * 15_Jul-2020: Added productName field;
 * 05-Aug-2020: Added audit BSC;
@@ -47,4 +44,3 @@
 		cmedit get * Equipment.* --netype=TCU02 -t -s
 		cmedit get * networkelement.(neType,platformType==STN) -t -s
 	cmedit get * networkelement.(neProductVersion,neType,release) -t -s
-	сравнение аварий: удалить не нужные аварии после апгрейда.
