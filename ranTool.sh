@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 
+# Download this script from the link:
+urlGitHub=https://github.com/kyurov/ranTool.git
 currentVersion=3.0
+welcomeMessage="#, ,#"
+welcomeMessage+="\n#,IT IS ALWAYS RECOMMENDED TO USE THE LATEST VERSION OF THE SCRIPT,#"
+welcomeMessage+="\n#, ,#"
+welcomeMessage+="\n#,You can download the latest version script from the link: $urlGitHub,#"
+welcomeMessage+="\n#, ,#"
+welcomeMessage+="\n#,Сurrent version of the script: "$currentVersion",#"
+welcomeMessage+="\n#, ,#"
 scriptName=$0
 scriptAction=$1
 collectionName=$3
@@ -1344,11 +1353,7 @@ getAbisTsState () {
 ################################################################################################################################################################################################
 # PROCEDURE ####################################################################################################################################################################################
 ################################################################################################################################################################################################
-echo -e "\n#####################################################################################################################\n#                                                                                                                   #"
-echo -e "# IT IS ALWAYS RECOMMENDED TO USE THE LATEST VERSION OF THE SCRIPT                                                  #\n#                                                                                                                   #"
-echo -e "# You can download the latest version script from the link: https://github.com/kyurov/ranTool.git #"
-echo -e "#                                                                                                                   #\n# Сurrent version of the script: "$currentVersion"                                                                              #"
-echo -e "#                                                                                                                   #\n#####################################################################################################################\n"
+echo "$welcomeMessage" | column -t -s","
 
 declareVariablesForPython
 
