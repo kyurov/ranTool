@@ -4,6 +4,7 @@ This script is used in ENM systems. The main purpose of this tool is to export d
  
 	./ranTool.sh --help
 or
+	
 	bash ranTool.sh --help
  
 To run the script, you need to upload the `ranTool.sh` file to the ENM scripting machine (connecting via port 5023 or to a direct IP address, you can find out with the command: `egrep scripting_service_IPs /ericsson/tor/data/global.properties`) and expand its rights with the command: `chmod 700 ranTool.sh`
