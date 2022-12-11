@@ -53,4 +53,4 @@ To run the script, you need to upload the `ranTool.sh` file to the ENM scripting
 	> `cmedit get * Equipment.* --netype=TCU02 -t -s`
 	> `cmedit get * networkelement.(neType,platformType==STN) -t -s`
  
- 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
+ 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
